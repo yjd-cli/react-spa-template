@@ -8,3 +8,7 @@ https://cli.vuejs.org/zh/guide/html-and-static-assets.html#public-%E6%96%87%E4%B
 #### 什么时候需要代码分割
 单页面的话：如果不做异步加载，那么是没有必要拆分 chunk 的
 多页面或者要做异步加载（其实就是会生成多个 chunk 时），那就需要拆分 chunk
+
+#### 开发环境和生产环境
+开发环境：不需要提前公共代码和代码分割
+
